@@ -1,0 +1,5 @@
+- Trong Java, tham số của phương thức được truyền theo giá trị (pass-by-value), có nghĩa là các tham chiếu o1 và o2 trong phương thức swap chỉ là bản sao của tham chiếu gốc jungleDVD và cinderellaDVD.
+
+- Phương thức swap chỉ hoán đổi hai bản sao cục bộ của tham chiếu (o1 và o2), nhưng các tham chiếu gốc trong main không thay đổi.
+
+- Do đó, sau khi phương thức swap thực thi, jungleDVD vẫn tham chiếu đến DVD "Jungle" và cinderellaDVD vẫn tham chiếu đến DVD "Cinderella".
