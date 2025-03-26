@@ -1,0 +1,57 @@
+0:50:32 Tab32 FinishNav276 ERR_ABORTED
+0:50:32 Tab32 StartNav277 #typed
+0:50:32 Tab32 FinishNav277 ERR_ABORTED
+0:50:32 Browser32 Close Tab32 at 0
+0:50:32 Tab32 WebContentsDestroyed
+0:50:32 Microsoft.Shutdown.OnWindowClosing
+0:50:32 Microsoft.Shutdown.OnWindowClosing_MaybeClearBrowsingDataOnExit
+0:50:32 Microsoft.Shutdown.OnWindowClosing_ClearBrowsingDataOnExitNotInProgress
+0:50:32 Microsoft.Shutdown.OnWindowClosingPostClearBrowsingData_NoBrowsingDataCleared
+0:50:32 Widget Closed: BrowserFrame
+0:50:32 Microsoft.Browser_Removed
+0:50:42 Tab23 StartNav279 #typed
+0:50:42 Tab23 FinishNav279
+0:50:42 Tab23 PageLoad
+0:50:44 Tab23 StartNav280 #typed
+0:50:44 Tab23 FinishNav280
+0:50:44 Tab23 PageLoad
+0:50:45 Tab23 StartNav281 #typed
+0:50:45 Tab23 FinishNav281
+0:50:45 Tab23 PageLoad
+0:50:45 Tab23 StartNav282 #typed
+0:50:45 Tab23 FinishNav282
+0:50:45 Tab23 PageLoad
+0:51:21 Tab23 StartNav283 #typed
+0:51:21 Tab23 FinishNav283
+0:51:21 Tab23 PageLoad
+0:51:35 Tab23 StartNav284 #typed
+0:51:35 Tab23 FinishNav284
+0:51:35 Tab23 PageLoad
+0:51:37 Tab23 StartNav285 #typed
+0:51:37 Tab23 FinishNav285
+0:51:37 Tab23 PageLoad
+0:51:58 Tab23 StartNav286 #typed
+0:51:58 Tab23 FinishNav286
+0:51:58 Tab23 PageLoad
+0:52:00 Tab23 StartNav287 #typed
+0:52:00 Tab23 FinishNav287
+0:52:00 Tab23 PageLoad
+0:52:02 Tab23 StartNav288 #typed
+0:52:02 Tab23 FinishNav288
+0:52:02 Tab23 PageLoad
+0:52:06 Tab23 StartNav289 #typed
+0:52:06 Tab23 FinishNav289
+0:52:06 Tab23 PageLoad
+0:52:36 Tab23 StartNav290 #typed
+0:52:36 Tab23 FinishNav290
+0:52:36 Tab23 PageLoad
+0:52:37 Tab23 StartNav291 #typed
+0:52:37 Tab23 FinishNav291
+0:52:37 Tab23 PageLoad
+0:52:42 Tab23 StartNav292 #typed
+0:52:42 Tab23 FinishNav292
+0:52:42 Tab23 PageLoad
+0:52:49 Tab23 StartNav293 #typed
+0:52:49 Tab23 FinishNav293
+0:52:49 Tab23 PageLoad
+1:01:06 Microsoft.Shutdown.OnWindowClosing

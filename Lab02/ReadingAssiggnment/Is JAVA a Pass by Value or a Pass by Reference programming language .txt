@@ -1,0 +1,7 @@
+- Java là ngôn ngữ pass-by-value hoàn toàn.
+
+- Tuy nhiên, điều này có thể gây nhầm lẫn vì khi truyền đối tượng, Java thực tế truyền giá trị của tham chiếu (một bản sao của tham chiếu, chứ không phải chính đối tượng). Điều này có nghĩa là:
+
+	+ Khi thay đổi thuộc tính của đối tượng bên trong phương thức, thay đổi này vẫn tồn tại sau khi phương thức kết thúc.
+
+	+ Tuy nhiên, nếu gán lại tham chiếu trong phương thức, nó chỉ thay đổi bản sao cục bộ và không ảnh hưởng đến tham chiếu ban đầu bên ngoài phương thức.

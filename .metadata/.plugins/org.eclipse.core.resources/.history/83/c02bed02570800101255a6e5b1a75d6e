@@ -1,0 +1,16 @@
+package AimsProject;
+
+public class Cart {
+	public static final int MAX_NUMBER_ORDERED = 20
+	private int count = 0
+	private DigitalVideoDisc itemsOdered[] = new DigitalVideoDisc[MAX_NUMBER_ORDERED];
+	public void addDigitalVideoDisc(DigitalVideoDisc disc) {
+		if(count < MAX_NUMBER_ORDERED) {
+			count++;
+			itemsOdered[count] = disc;
+		}
+		else {
+			System.out.println("Mua qua so luong");
+		}
+	}
+}
