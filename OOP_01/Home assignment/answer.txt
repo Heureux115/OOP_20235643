@@ -1,8 +1,0 @@
-6.1
-	1. What happens if users choose “Cancel”?
-	Khi đó, biến option sẽ không khớp với JOptionPane.YES_OPTION, dẫn đến việc hiển thị 	thông báo "You've chosen: No".
-	2.How to customize the options to users, e.g., only two options: “Yes” and “No”, OR “I 	do” and “I don’t”?
- 	- Có thể dùng phương thức JOptionPane.showOptionDialog với danh sách các nút tùy chỉnh:
-
-		String[] options = {"I do", "I don't"};
-		int option = JOptionPane.showOptionDialog(null, "Do you agree?", "Custom Options", JOptionPane.DEFAULT_OPTION, JOptionPane.QUESTION_MESSAGE, null, options, options[0]);
