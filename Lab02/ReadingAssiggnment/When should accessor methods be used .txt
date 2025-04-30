@@ -1,0 +1,6 @@
+-Các phương thức truy xuất (accessor methods) nên được sử dụng để trả về đối tượng thông qua giao diện, khi một phương thức trả về một đối tượng thực thi một giao diện cụ thể.
+
+-Lý do:
+	+Cô lập giao diện (Interface Isolation): Giao diện xác định hành vi hoặc hợp đồng mà mã có thể tương tác, thay vì tiết lộ cấu trúc nội bộ hoặc chi tiết triển khai của đối tượng. Điều này cho phép mã gọi tương tác với đối tượng một cách nhất quán mà không bị ràng buộc với một triển khai cụ thể.
+
+	+Bảo vệ tính đóng gói (Encapsulation Protection): Nếu việc triển khai của đối tượng thay đổi nhưng vẫn tuân theo cùng một giao diện, mã sử dụng đối tượng sẽ không bị ảnh hưởng. Điều này giúp bảo vệ tính toàn vẹn của dữ liệu và duy trì tính đóng gói, giảm nguy cơ lỗi do thay đổi triển khai.
