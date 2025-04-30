@@ -1,0 +1,6 @@
+- Phương thức changeTitle nhận tham chiếu đến jungleDVD và thay đổi tiêu đề của nó bằng cách gọi dvd.setTitle(title).
+
+- Vì phương thức setTitle thay đổi trực tiếp thuộc tính của đối tượng hiện tại, sự thay đổi này sẽ có hiệu lực bên ngoài phương thức.
+
+- Tuy nhiên, nếu trong phương thức có dòng:"dvd = new DigitalVideoDisc(oldTitle);" thì một đối tượng DigitalVideoDisc mới sẽ được tạo, nhưng đối tượng này chỉ được gán cho biến cục bộ dvd. Việc này không ảnh hưởng đến tham chiếu jungleDVD trong main.
+
