@@ -1,0 +1,6 @@
+- Không, Java không cho phép tạo một phương thức khởi tạo để xây dựng DVD bằng thể loại sau khi đã có phương thức khởi tạo để xây dựng DVD bằng tiêu đề.
+
+- Lý do:
+	+Cả category (thể loại) và title (tiêu đề) đều có kiểu dữ liệu String, vì vậy Java không thể phân biệt hai biến này khi người dùng nhập vào. Java có hỗ trợ nạp chồng phương thức khởi tạo (constructor overloading), nhưng mỗi constructor phải có danh sách tham số khác nhau.
+
+	+Khi cả hai constructor đều sử dụng một tham số kiểu String, trình biên dịch không thể xác định liệu giá trị String đầu vào là tiêu đề hay thể loại. Do đó, nếu bạn định nghĩa hai constructor có cùng một tham số String, trình biên dịch sẽ báo lỗi.
